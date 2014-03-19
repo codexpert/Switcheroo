@@ -26,7 +26,7 @@ $.each( $products, function( key, object ) {
 	}
 
 	$productList.append(
-		'<a class="product pull-left" data-id="' + key + '" ' + tooltip + '><img src="' + object.img + '" alt="' + object.name + '" width="236" height="120"><span class="title">' + object.name + '</span><span class="badge">' + object.tag + '</span></a>'
+		'<a class="product pull-left" data-id="' + key + '" ' + tooltip + '><img src="' + object.img + '" alt="' + object.name + '" width="236" height="120"><span class="title">' + object.name + '</span><span id="badges">' + get_tags(object.tag) + '</span></a>'
 	);
 
 });
@@ -67,6 +67,21 @@ $( '.remove-btn' ).click( function() {
 	return false;
 
 });
+
+// Lets extract tags from , seperated value
+function get_tags( $tags )
+{
+	var arr = $tags.split(','),
+		span = '',
+		klass = '';
+
+	$.each( arr, function( key, val ) {
+		klass = val.replace(' ', '');
+		span += '<span class="badge '+ klass +'">' + val + '</span>';
+	});	
+
+	return span ; 
+}
 
 // Let's calculate iframe height
 function switcher_iframe_height() {
@@ -194,7 +209,7 @@ $( document ).ready( function() {
 	}
 
 	$( '.product-switcher a' ).html( 
-		$products[ $current_product ].name + ' <span class="badge">' + $products[ $current_product ].tag + '</span>'
+		$products[ $current_product ].name
 	);
 
 	switcher_viewport_buttons();
@@ -227,7 +242,7 @@ $( '.product' ).click( function() {
 		});
 
 		$( '.product-switcher a' ).html( 
-			$products[ $current_product ].name + ' <span class="badge">' + $products[ $current_product ].tag + '</span>'
+			$products[ $current_product ].name
 		);
 
 		$productIframe.attr( 'src', $products[ $current_product ].url );

@@ -7,7 +7,7 @@ $products = {
 
 	visia : {
 		name     : 'Visia',
-		tag      : 'WP',
+		tag      : 'Joomla 3.x,Joomla 2.5,Responsiv',
 		img      : 'http://i.imgur.com/hgp2v0H.jpg',
 		url      : 'http://visia.themes.pixelentity.com/',
 		purchase : 'http://themeforest.net/item/visia-responsive-one-page-retina-wordpress-theme/5602067?ref=OriginalEXE',

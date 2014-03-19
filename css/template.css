@@ -295,7 +295,12 @@ body {
 	white-space: nowrap;
 }
 
-.product .badge {
+#badges{
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+#badges .badge {
 	background: #E66346;
 	background-image: -ms-linear-gradient(top, #F37054 0%, #E66346 100%);
 	background-image: -moz-linear-gradient(top, #F37054 0%, #E66346 100%);
@@ -309,10 +314,9 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 10px;
 	font-weight: 300;
-	position: absolute;
-	top: 5px;
-	right: 5px;
+	display: block;
 }
+#badges .badge + .badge{ margin-top: 3px; }
 
 .tooltip-inner {
 	max-width: 238px;
