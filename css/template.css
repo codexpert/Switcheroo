@@ -506,3 +506,9 @@ body.dark,
 .dark .header-btn a {
 	border-color: #000;
 }
+
+/* --------------------------------------*/
+/* ---------->>> Badge Color <<<---------*/
+/* --------------------------------------*/
+#badges .Joomla3.x{ background: #eab31d; }
+#badges .Joomla2.5{ background: #ba00fb; }
