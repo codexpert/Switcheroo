@@ -76,7 +76,7 @@ function get_tags( $tags )
 		klass = '';
 
 	$.each( arr, function( key, val ) {
-		klass = val.replace(' ', '');
+		klass = val.replace(' ', '').replace('.','');
 		span += '<span class="badge '+ klass +'">' + val + '</span>';
 	});	
 

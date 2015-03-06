@@ -510,5 +510,5 @@ body.dark,
 /* --------------------------------------*/
 /* ---------->>> Badge Color <<<---------*/
 /* --------------------------------------*/
-#badges .Joomla3.x{ background: #eab31d; }
-#badges .Joomla2.5{ background: #ba00fb; }
+#badges .Joomla3x{ background: #eab31d; border-color: #be9117; }
+#badges .Joomla25{ background: #ba00fb; border-color: #8526b6; }
