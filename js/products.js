@@ -162,8 +162,7 @@ $products = {
 		tag      : 'Joomla 3.x,Joomla 2.5,Ecommerce',
 		img      : 'http://demo.themexpert.com/images/delicious.jpg',
 		url      : 'http://delicious.demo.themexpert.com',
-		purchase : 'http://themexpert.com/joomla-templates/delicious',
-		tooltip  : 'Ecommerce Template'
+		purchase : 'http://themexpert.com/joomla-templates/delicious'
 	},
 	simplex : {
 		name     : 'Simplex',
@@ -171,15 +170,125 @@ $products = {
 		img      : 'http://demo.themexpert.com/images/simplex.jpg',
 		url      : 'http://simplex.demo.themexpert.com',
 		purchase : 'http://themexpert.com/joomla-templates/simplex',
-		tooltip  : 'Business Template'
 	},
 	extreme : {
 		name     : 'Extreme',
-		tag      : 'Joomla 3.x,Joomla 2.5,Business',
+		tag      : 'Joomla 3.x,Joomla 2.5,Gaming',
 		img      : 'http://demo.themexpert.com/images/extreme.jpg',
 		url      : 'http://extreme.demo.themexpert.com',
-		purchase : 'http://themexpert.com/joomla-templates/extreme',
-		tooltip  : 'Gaming Template'
+		purchase : 'http://themexpert.com/joomla-templates/extreme'
+	},
+	vibration : {
+		name     : 'Vibration',
+		tag      : 'Joomla 3.x,Joomla 2.5,Ecommerce',
+		img      : 'http://demo.themexpert.com/images/vibration.jpg',
+		url      : 'http://vibration.demo.themexpert.com',
+		purchase : 'http://themexpert.com/joomla-templates/vibration'
+	},
+	maximus : {
+		name     : 'Maximus',
+		tag      : 'Joomla 3.x,Joomla 2.5,Business',
+		img      : 'http://demo.themexpert.com/images/maximus.jpg',
+		url      : 'http://maximus.demo.themexpert.com',
+		purchase : 'http://themexpert.com/joomla-templates/maximus'
+	},
+	streamx : {
+		name     : 'Streamx',
+		tag      : 'Joomla 3.x,Joomla 2.5,Music',
+		img      : 'http://demo.themexpert.com/images/streamx.jpg',
+		url      : 'http://streamx.demo.themexpert.com',
+		purchase : 'http://themexpert.com/joomla-templates/streamx'
+	},
+	crisp : {
+		name     : 'Crisp',
+		tag      : 'Joomla 3.x,Joomla 2.5,Business',
+		img      : 'http://demo.themexpert.com/images/crisp.jpg',
+		url      : 'http://crisp.demo.themexpert.com',
+		purchase : 'http://themexpert.com/joomla-templates/crisp'
+	},
+	parallax : {
+		name     : 'Parallax',
+		tag      : 'Joomla 3.x,Joomla 2.5,Business',
+		img      : 'http://demo.themexpert.com/images/parallax.jpg',
+		url      : 'http://parallax.demo.themexpert.com',
+		purchase : 'http://themexpert.com/joomla-templates/parallax'
+	},
+	matheno : {
+		name     : 'Matheno',
+		tag      : 'Joomla 3.x,Joomla 2.5,Education',
+		img      : 'http://demo.themexpert.com/images/matheno.jpg',
+		url      : 'http://matheno.demo.themexpert.com',
+		purchase : 'http://themexpert.com/joomla-templates/matheno'
+	},
+	anonymous : {
+		name     : 'Anonymous',
+		tag      : 'Joomla 3.x,Joomla 2.5,Business',
+		img      : 'http://demo.themexpert.com/images/anonymous.jpg',
+		url      : 'http://anonymous.demo.themexpert.com',
+		purchase : 'http://themexpert.com/joomla-templates/anonymous'
+	},
+	sanity : {
+		name     : 'Sanity',
+		tag      : 'Joomla 3.x,Joomla 2.5,Business',
+		img      : 'http://demo.themexpert.com/images/sanity.jpg',
+		url      : 'http://sanity.demo.themexpert.com',
+		purchase : 'http://themexpert.com/joomla-templates/sanity'
+	},
+	dailyedition : {
+		name     : 'Dailyedition',
+		tag      : 'Joomla 3.x,Joomla 2.5,News',
+		img      : 'http://demo.themexpert.com/images/dailyedition.jpg',
+		url      : 'http://dailyedition.demo.themexpert.com',
+		purchase : 'http://themexpert.com/joomla-templates/dailyedition'
+	},
+	untitled : {
+		name     : 'Untitled',
+		tag      : 'Joomla 3.x,Joomla 2.5,Blog',
+		img      : 'http://demo.themexpert.com/images/untitled.jpg',
+		url      : 'http://untitled.demo.themexpert.com',
+		purchase : 'http://themexpert.com/joomla-templates/untitled'
+	},
+	cursor : {
+		name     : 'Cursor',
+		tag      : 'Joomla 3.x,Joomla 2.5,Business',
+		img      : 'http://demo.themexpert.com/images/cursor.jpg',
+		url      : 'http://cursor.demo.themexpert.com',
+		purchase : 'http://themexpert.com/joomla-templates/cursor'
+	},
+	infinity : {
+		name     : 'Infinity',
+		tag      : 'Joomla 3.x,Joomla 2.5,Business',
+		img      : 'http://demo.themexpert.com/images/infinity.jpg',
+		url      : 'http://infinity.demo.themexpert.com',
+		purchase : 'http://themexpert.com/joomla-templates/infinity'
+	},
+	mainstream : {
+		name     : 'Mainstream',
+		tag      : 'Joomla 3.x,Joomla 2.5,News',
+		img      : 'http://demo.themexpert.com/images/mainstream.jpg',
+		url      : 'http://mainstream.demo.themexpert.com',
+		purchase : 'http://themexpert.com/joomla-templates/mainstream'
+	},
+	dispatch : {
+		name     : 'Dispatch',
+		tag      : 'Joomla 3.x,Joomla 2.5,Business',
+		img      : 'http://demo.themexpert.com/images/dispatch.jpg',
+		url      : 'http://dispatch.demo.themexpert.com',
+		purchase : 'http://themexpert.com/joomla-templates/dispatch'
+	},
+	freemium : {
+		name     : 'Freemium',
+		tag      : 'Joomla 3.x,Joomla 2.5,Free',
+		img      : 'http://demo.themexpert.com/images/freemium.jpg',
+		url      : 'http://freemium.demo.themexpert.com',
+		purchase : 'http://themexpert.com/joomla-templates/freemium'
+	},
+	finnix : {
+		name     : 'Finnix',
+		tag      : 'Joomla 3.x,Joomla 2.5,Education',
+		img      : 'http://demo.themexpert.com/images/finnix.jpg',
+		url      : 'http://finnix.demo.themexpert.com',
+		purchase : 'http://themexpert.com/joomla-templates/finnix'
 	},
 
 };
