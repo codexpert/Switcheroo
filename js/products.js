@@ -243,7 +243,7 @@ $products = {
 	},
 	untitled : {
 		name     : 'Untitled',
-		tag      : 'Joomla 3.x,Joomla 2.5,Blog',
+		tag      : 'Joomla 2.5,Blog',
 		img      : 'http://demo.themexpert.com/images/untitled.jpg',
 		url      : 'http://untitled.demo.themexpert.com',
 		purchase : 'http://themexpert.com/joomla-templates/untitled'
@@ -257,28 +257,28 @@ $products = {
 	},
 	infinity : {
 		name     : 'Infinity',
-		tag      : 'Joomla 3.x,Joomla 2.5,Business',
+		tag      : 'Joomla 2.5,Business',
 		img      : 'http://demo.themexpert.com/images/infinity.jpg',
 		url      : 'http://infinity.demo.themexpert.com',
 		purchase : 'http://themexpert.com/joomla-templates/infinity'
 	},
 	mainstream : {
 		name     : 'Mainstream',
-		tag      : 'Joomla 3.x,Joomla 2.5,News',
+		tag      : 'Joomla 2.5,News',
 		img      : 'http://demo.themexpert.com/images/mainstream.jpg',
 		url      : 'http://mainstream.demo.themexpert.com',
 		purchase : 'http://themexpert.com/joomla-templates/mainstream'
 	},
 	dispatch : {
 		name     : 'Dispatch',
-		tag      : 'Joomla 3.x,Joomla 2.5,Business',
+		tag      : 'Joomla 2.5,Business',
 		img      : 'http://demo.themexpert.com/images/dispatch.jpg',
 		url      : 'http://dispatch.demo.themexpert.com',
 		purchase : 'http://themexpert.com/joomla-templates/dispatch'
 	},
 	freemium : {
 		name     : 'Freemium',
-		tag      : 'Joomla 3.x,Joomla 2.5,Free',
+		tag      : 'Joomla 2.5,Free',
 		img      : 'http://demo.themexpert.com/images/freemium.jpg',
 		url      : 'http://freemium.demo.themexpert.com',
 		purchase : 'http://themexpert.com/joomla-templates/freemium'
