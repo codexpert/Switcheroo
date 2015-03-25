@@ -29,7 +29,14 @@ $products = {
 		purchase : 'http://themexpert.com/joomla-templates/hostx',
 		tooltip  : 'Hosting Template'
 	},
-	eventx : {
+	'switch' : {
+		name     : 'Switch',
+		tag      : 'WordPress,OnePage',
+		img      : 'http://demo.themexpert.com/images/switch.jpg',
+		url      : 'http://switch.demo.themexpert.com/',
+		purchase : 'http://themexpert.com/wordpress-themes/switch'
+	},
+	'event' : {
 		name     : 'Event',
 		tag      : 'Joomla 3.x,Joomla 2.5,Event',
 		img      : 'http://demo.themexpert.com/images/event.jpg',
