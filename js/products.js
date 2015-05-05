@@ -5,6 +5,13 @@ var $products,
 
 $products = {
 
+	zmash : {
+		name     : 'Zmash',
+		tag      : 'Joomla 3.x,Joomla 2.5,Free',
+		img      : 'http://demo.themexpert.com/images/zmash.jpg',
+		url      : 'http://zmash.demo.themexpert.com/',
+		purchase : 'http://themexpert.com/joomla-templates/zmash'
+	},
 	spaghetti : {
 		name     : 'Spaghetti',
 		tag      : 'Joomla 3.x,Joomla 2.5,Ecommerce',
