@@ -1,10 +1,17 @@
 var $products,
-	$current_product = 'next';
+	$current_product = 'unity';
 
 // List all the products here
 
 $products = {
 
+	unity : {
+		name     : 'Unity',
+		tag      : 'Joomla 3.x,Joomla 2.5, Onepage',
+		img      : 'http://demo.themexpert.com/images/unity.jpg',
+		url      : 'http://unity.demo.themexpert.com/',
+		purchase : 'http://www.themexpert.com/joomla-templates/unity'
+	},
 	next : {
 		name     : 'Next',
 		tag      : 'Joomla 3.x,Joomla 2.5, News',
