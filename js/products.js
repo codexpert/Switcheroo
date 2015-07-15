@@ -1,10 +1,17 @@
 var $products,
-	$current_product = 'unity';
+	$current_product = 'egan';
 
 // List all the products here
 
 $products = {
 
+	egan : {
+		name     : 'Egan',
+		tag      : 'WordPress, News, Magazine',
+		img      : 'http://demo.themexpert.com/images/egan.jpg',
+		url      : 'http://egan.demo.themexpert.com',
+		purchase : 'http://www.themexpert.com/wordpress-themes/egan'
+	},
 	unity : {
 		name     : 'Unity',
 		tag      : 'Joomla 3.x,Joomla 2.5, Onepage',
