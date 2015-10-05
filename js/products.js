@@ -4,7 +4,20 @@ var $products,
 // List all the products here
 
 $products = {
-
+	agencia : {
+		name     : 'Agencia',
+		tag      : 'WordPress, Onepage',
+		img      : 'http://demo.themexpert.com/images/agencia.jpg',
+		url      : 'http://agencia.demo.themexpert.com/preview',
+		purchase : 'http://www.themexpert.com/wordpress-themes/agencia'
+	},
+	lawxpert : {
+		name     : 'Lawxpert',
+		tag      : 'Joomla 3.x, Corporate, Law Firm',
+		img      : 'http://demo.themexpert.com/images/lawxpert.jpg',
+		url      : 'http://lawxpert.demo.themexpert.com',
+		purchase : 'http://www.themexpert.com/joomla-templates/lawxpert'
+	},
 	egan : {
 		name     : 'Egan',
 		tag      : 'WordPress, News, Magazine',
