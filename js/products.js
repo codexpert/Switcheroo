@@ -282,7 +282,7 @@ $products = {
 		url      : 'http://sanity.demo.themexpert.com',
 		purchase : 'http://www.themexpert.com/joomla-templates/sanity'
 	},
-	dailyedition : {
+	'daily-edition' : {
 		name     : 'Dailyedition',
 		tag      : 'Joomla 3.x,Joomla 2.5,News',
 		img      : 'http://demo.themexpert.com/images/dailyedition.jpg',
