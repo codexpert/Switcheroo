@@ -4,6 +4,13 @@ var $products,
 // List all the products here
 
 $products = {
+	quick : {
+		name     : 'Quick',
+		tag      : 'WordPress, Onepage',
+		img      : 'http://demo.themexpert.com/images/quick.jpg',
+		url      : 'http://www.themefisher.com/themes/quick-wp/',
+		purchase : 'http://www.themexpert.com/wordpress-themes/quick'
+	},
 	agencia : {
 		name     : 'Agencia',
 		tag      : 'WordPress, Onepage',
