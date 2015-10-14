@@ -18,6 +18,13 @@ $products = {
 		url      : 'http://agencia.demo.themexpert.com/preview',
 		purchase : 'http://www.themexpert.com/wordpress-themes/agencia'
 	},
+	notes : {
+		name     : 'Notes',
+		tag      : 'WordPress, Onepage, Free',
+		img      : 'http://demo.themexpert.com/images/notes.jpg',
+		url      : 'http://notes.demo.themefisher.com',
+		purchase : 'http://www.themexpert.com/wordpress-themes/notes'
+	},
 	lawxpert : {
 		name     : 'Lawxpert',
 		tag      : 'Joomla 3.x, Corporate, Law Firm',
