@@ -1,9 +1,16 @@
 var $products,
-	$current_product = 'egan';
+	$current_product = 'nimble';
 
 // List all the products here
 
 $products = {
+	nimble : {
+		name     : 'Nimble',
+		tag      : 'WordPress, Onepage, App Theme',
+		img      : 'http://demo.themexpert.com/images/nimble.jpg',
+		url      : 'http://nimble.demo.themexpert.com',
+		purchase : 'https://www.themexpert.com/wordpress-themes/nimble'
+	},
 	quick : {
 		name     : 'Quick',
 		tag      : 'WordPress, Onepage',
