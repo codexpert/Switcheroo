@@ -1,9 +1,16 @@
 var $products,
-	$current_product = 'nimble';
+	$current_product = 'stuart';
 
 // List all the products here
 
 $products = {
+	stuart : {
+		name     : 'Stuart',
+		tag      : 'Joomla 3.x, Multipurpose',
+		img      : 'http://demo.themexpert.com/images/stuart.jpg',
+		url      : 'http://stuart.tx.ithemeslab.com/',
+		purchase : 'http://www.themexpert.com/joomla-templates/stuart'
+	},
 	nimble : {
 		name     : 'Nimble',
 		tag      : 'WordPress, Onepage, App Theme',
@@ -98,12 +105,12 @@ $products = {
 		url      : 'http://switch.demo.themexpert.com/',
 		purchase : 'http://www.themexpert.com/wordpress-themes/switch'
 	},
-	'event' : {
-		name     : 'Event',
+	'eventx' : {
+		name     : 'Eventx',
 		tag      : 'Joomla 3.x,Joomla 2.5,Event',
 		img      : 'http://demo.themexpert.com/images/event.jpg',
 		url      : 'http://event.demo.themexpert.com/',
-		purchase : 'http://www.themexpert.com/joomla-templates/event',
+		purchase : 'http://www.themexpert.com/joomla-templates/eventx',
 		tooltip  : 'Event Template'
 	},
 	nefario : {
