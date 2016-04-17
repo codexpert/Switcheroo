@@ -23,7 +23,7 @@ body {
 .switcher-bar {
 	background: #fff;
 	border-bottom: 1px solid #E6E6E6;
-	max-height: 60px;
+	max-height: 50px;
 	position: relative;
 	z-index: 22;
 }
@@ -34,7 +34,7 @@ body {
 
 .logo a {
 	display: block;
-	max-height: 60px;
+	max-height: 50px;
 }
 
 .logo a img {
@@ -50,7 +50,7 @@ body {
 	font-size: 19px;
 	font-weight: 700;
 	line-height: 50px;
-	padding: 5px 20px;
+	padding: 0px 20px;
 	text-decoration: none;
 	text-transform: uppercase;
 }
@@ -63,7 +63,7 @@ body {
 	border-left: 1px solid #E6E6E6;
 	display: block;
 	font-size: 24px;
-	height: 60px;
+	height: 50px;
 	padding: 0;
 	width: 60px;
 	text-decoration: none;
@@ -73,37 +73,37 @@ body {
 	color: #9B9B9B;
 	left: 18px;
 	position: absolute;
-	top: 18px;
+	top: 12px;
 }
 
-.header-btn a.icon-tablet {
+.header-btn a.fa-tablet {
 	font-size: 30px;
 }
 
-.header-btn a.icon-tablet:before {
+.header-btn a.fa-tablet:before {
 	left: 21px;
 	position: absolute;
-	top: 16px;
+	top: 10px;
 }
 
-.header-btn a.icon-mobile-phone {
+.header-btn a.fa-mobile {
 	font-size: 30px;
 }
 
-.header-btn a.icon-mobile-phone:before {
-	left: 23px;
+.header-btn a.fa-mobile:before {
+	left: 21px;
 	position: absolute;
-	top: 16px;
+	top: 10px;
 }
 
-.header-btn a.icon-remove {
+.header-btn a.fa-times {
 	font-size: 24px;
 }
 
-.header-btn a.icon-remove:before {
+.header-btn a.fa-times:before {
 	left: 21px;
 	position: absolute;
-	top: 18px;
+	top: 12px;
 }
 
 .header-btn a:hover,
@@ -146,8 +146,8 @@ body {
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 50px;
-	max-height: 60px;
-	padding: 5px 20px 5px 40px;
+	max-height: 50px;
+	padding: 0px 20px 0px 40px;
 	text-decoration: none;
 	text-transform: uppercase;
 }
@@ -234,7 +234,7 @@ body {
 .products-prev,
 .products-next {
 	display: block !important;
-	height: 60px;
+	height: 50px;
 	left: 0;
 	padding: 0;
 	position: absolute;
